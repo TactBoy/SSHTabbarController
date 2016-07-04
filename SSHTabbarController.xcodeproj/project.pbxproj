@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		156A5EBA1C2D0CE9002628F6 /* SaquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156A5EB91C2D0CE9002628F6 /* SaquareViewController.m */; };
+		156A5EBD1C2D0D07002628F6 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156A5EBC1C2D0D07002628F6 /* MessageViewController.m */; };
+		156A5EC31C2D10BC002628F6 /* SSHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156A5EC21C2D10BC002628F6 /* SSHNavigationController.m */; };
+		156EAD431C2EF41E0065AF9A /* main@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156EAD3B1C2EF41E0065AF9A /* main@2x.png */; };
+		156EAD441C2EF41E0065AF9A /* main@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156EAD3C1C2EF41E0065AF9A /* main@3x.png */; };
+		156EAD451C2EF41E0065AF9A /* main_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156EAD3D1C2EF41E0065AF9A /* main_@2x.png */; };
+		156EAD461C2EF41E0065AF9A /* main_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156EAD3E1C2EF41E0065AF9A /* main_@3x.png */; };
+		156EAD471C2EF41E0065AF9A /* message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156EAD3F1C2EF41E0065AF9A /* message@2x.png */; };
+		156EAD481C2EF41E0065AF9A /* message@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156EAD401C2EF41E0065AF9A /* message@3x.png */; };
+		156EAD491C2EF41E0065AF9A /* message_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156EAD411C2EF41E0065AF9A /* message_@2x.png */; };
+		156EAD4A1C2EF41E0065AF9A /* message_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 156EAD421C2EF41E0065AF9A /* message_@3x.png */; };
+		157F5F051C24F02A00C1D220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157F5F041C24F02A00C1D220 /* main.m */; };
+		157F5F081C24F02A00C1D220 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157F5F071C24F02A00C1D220 /* AppDelegate.m */; };
+		157F5F0B1C24F02A00C1D220 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157F5F0A1C24F02A00C1D220 /* ViewController.m */; };
+		157F5F0E1C24F02A00C1D220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157F5F0C1C24F02A00C1D220 /* Main.storyboard */; };
+		157F5F101C24F02A00C1D220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157F5F0F1C24F02A00C1D220 /* Assets.xcassets */; };
+		157F5F131C24F02A00C1D220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157F5F111C24F02A00C1D220 /* LaunchScreen.storyboard */; };
+		157F5F1E1C24F02A00C1D220 /* SSHTabbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 157F5F1D1C24F02A00C1D220 /* SSHTabbarControllerTests.m */; };
+		157F5F291C24F02A00C1D220 /* SSHTabbarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 157F5F281C24F02A00C1D220 /* SSHTabbarControllerUITests.m */; };
+		157F5F3B1C24FF6D00C1D220 /* SSHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157F5F3A1C24FF6D00C1D220 /* SSHViewController.m */; };
+		157F5F3E1C25013F00C1D220 /* SSHTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157F5F3D1C25013F00C1D220 /* SSHTabbarViewController.m */; };
+		157F5F411C25018E00C1D220 /* SSHTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 157F5F401C25018E00C1D220 /* SSHTabbar.m */; };
+		157F5F441C25021400C1D220 /* SSHTabbarIteam.m in Sources */ = {isa = PBXBuildFile; fileRef = 157F5F431C25021400C1D220 /* SSHTabbarIteam.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		157F5F1A1C24F02A00C1D220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 157F5EF81C24F02A00C1D220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 157F5EFF1C24F02A00C1D220;
+			remoteInfo = SSHTabbarController;
+		};
+		157F5F251C24F02A00C1D220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 157F5EF81C24F02A00C1D220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 157F5EFF1C24F02A00C1D220;
+			remoteInfo = SSHTabbarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		156A5EB81C2D0CE9002628F6 /* SaquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaquareViewController.h; sourceTree = "<group>"; };
+		156A5EB91C2D0CE9002628F6 /* SaquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaquareViewController.m; sourceTree = "<group>"; };
+		156A5EBB1C2D0D07002628F6 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		156A5EBC1C2D0D07002628F6 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		156A5EC11C2D10BC002628F6 /* SSHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHNavigationController.h; sourceTree = "<group>"; };
+		156A5EC21C2D10BC002628F6 /* SSHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHNavigationController.m; sourceTree = "<group>"; };
+		156EAD3B1C2EF41E0065AF9A /* main@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main@2x.png"; sourceTree = "<group>"; };
+		156EAD3C1C2EF41E0065AF9A /* main@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main@3x.png"; sourceTree = "<group>"; };
+		156EAD3D1C2EF41E0065AF9A /* main_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_@2x.png"; sourceTree = "<group>"; };
+		156EAD3E1C2EF41E0065AF9A /* main_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_@3x.png"; sourceTree = "<group>"; };
+		156EAD3F1C2EF41E0065AF9A /* message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@2x.png"; sourceTree = "<group>"; };
+		156EAD401C2EF41E0065AF9A /* message@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@3x.png"; sourceTree = "<group>"; };
+		156EAD411C2EF41E0065AF9A /* message_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message_@2x.png"; sourceTree = "<group>"; };
+		156EAD421C2EF41E0065AF9A /* message_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message_@3x.png"; sourceTree = "<group>"; };
+		157F5F001C24F02A00C1D220 /* SSHTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSHTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		157F5F041C24F02A00C1D220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		157F5F061C24F02A00C1D220 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		157F5F071C24F02A00C1D220 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		157F5F091C24F02A00C1D220 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		157F5F0A1C24F02A00C1D220 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		157F5F0D1C24F02A00C1D220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		157F5F0F1C24F02A00C1D220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		157F5F121C24F02A00C1D220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		157F5F141C24F02A00C1D220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157F5F191C24F02A00C1D220 /* SSHTabbarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSHTabbarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		157F5F1D1C24F02A00C1D220 /* SSHTabbarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSHTabbarControllerTests.m; sourceTree = "<group>"; };
+		157F5F1F1C24F02A00C1D220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157F5F241C24F02A00C1D220 /* SSHTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSHTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		157F5F281C24F02A00C1D220 /* SSHTabbarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSHTabbarControllerUITests.m; sourceTree = "<group>"; };
+		157F5F2A1C24F02A00C1D220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157F5F391C24FF6D00C1D220 /* SSHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHViewController.h; sourceTree = "<group>"; };
+		157F5F3A1C24FF6D00C1D220 /* SSHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHViewController.m; sourceTree = "<group>"; };
+		157F5F3C1C25013F00C1D220 /* SSHTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHTabbarViewController.h; sourceTree = "<group>"; };
+		157F5F3D1C25013F00C1D220 /* SSHTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHTabbarViewController.m; sourceTree = "<group>"; };
+		157F5F3F1C25018E00C1D220 /* SSHTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHTabbar.h; sourceTree = "<group>"; };
+		157F5F401C25018E00C1D220 /* SSHTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHTabbar.m; sourceTree = "<group>"; };
+		157F5F421C25021400C1D220 /* SSHTabbarIteam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHTabbarIteam.h; sourceTree = "<group>"; };
+		157F5F431C25021400C1D220 /* SSHTabbarIteam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHTabbarIteam.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		157F5EFD1C24F02A00C1D220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157F5F161C24F02A00C1D220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157F5F211C24F02A00C1D220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157F5EF71C24F02A00C1D220 = {
+			isa = PBXGroup;
+			children = (
+				157F5F021C24F02A00C1D220 /* SSHTabbarController */,
+				157F5F1C1C24F02A00C1D220 /* SSHTabbarControllerTests */,
+				157F5F271C24F02A00C1D220 /* SSHTabbarControllerUITests */,
+				157F5F011C24F02A00C1D220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		157F5F011C24F02A00C1D220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				157F5F001C24F02A00C1D220 /* SSHTabbarController.app */,
+				157F5F191C24F02A00C1D220 /* SSHTabbarControllerTests.xctest */,
+				157F5F241C24F02A00C1D220 /* SSHTabbarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		157F5F021C24F02A00C1D220 /* SSHTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				159F3B601D2A3DA1003196E6 /* tabbar */,
+				157F5F061C24F02A00C1D220 /* AppDelegate.h */,
+				157F5F071C24F02A00C1D220 /* AppDelegate.m */,
+				157F5F091C24F02A00C1D220 /* ViewController.h */,
+				157F5F0A1C24F02A00C1D220 /* ViewController.m */,
+				156A5EB81C2D0CE9002628F6 /* SaquareViewController.h */,
+				156A5EB91C2D0CE9002628F6 /* SaquareViewController.m */,
+				156A5EBB1C2D0D07002628F6 /* MessageViewController.h */,
+				156A5EBC1C2D0D07002628F6 /* MessageViewController.m */,
+				157F5F391C24FF6D00C1D220 /* SSHViewController.h */,
+				157F5F3A1C24FF6D00C1D220 /* SSHViewController.m */,
+				156EAD3B1C2EF41E0065AF9A /* main@2x.png */,
+				156EAD3C1C2EF41E0065AF9A /* main@3x.png */,
+				156EAD3D1C2EF41E0065AF9A /* main_@2x.png */,
+				156EAD3E1C2EF41E0065AF9A /* main_@3x.png */,
+				156EAD3F1C2EF41E0065AF9A /* message@2x.png */,
+				156EAD401C2EF41E0065AF9A /* message@3x.png */,
+				156EAD411C2EF41E0065AF9A /* message_@2x.png */,
+				156EAD421C2EF41E0065AF9A /* message_@3x.png */,
+				157F5F0C1C24F02A00C1D220 /* Main.storyboard */,
+				157F5F0F1C24F02A00C1D220 /* Assets.xcassets */,
+				157F5F111C24F02A00C1D220 /* LaunchScreen.storyboard */,
+				157F5F141C24F02A00C1D220 /* Info.plist */,
+				157F5F031C24F02A00C1D220 /* Supporting Files */,
+			);
+			path = SSHTabbarController;
+			sourceTree = "<group>";
+		};
+		157F5F031C24F02A00C1D220 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				157F5F041C24F02A00C1D220 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		157F5F1C1C24F02A00C1D220 /* SSHTabbarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				157F5F1D1C24F02A00C1D220 /* SSHTabbarControllerTests.m */,
+				157F5F1F1C24F02A00C1D220 /* Info.plist */,
+			);
+			path = SSHTabbarControllerTests;
+			sourceTree = "<group>";
+		};
+		157F5F271C24F02A00C1D220 /* SSHTabbarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				157F5F281C24F02A00C1D220 /* SSHTabbarControllerUITests.m */,
+				157F5F2A1C24F02A00C1D220 /* Info.plist */,
+			);
+			path = SSHTabbarControllerUITests;
+			sourceTree = "<group>";
+		};
+		159F3B601D2A3DA1003196E6 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				157F5F3C1C25013F00C1D220 /* SSHTabbarViewController.h */,
+				157F5F3D1C25013F00C1D220 /* SSHTabbarViewController.m */,
+				156A5EC11C2D10BC002628F6 /* SSHNavigationController.h */,
+				156A5EC21C2D10BC002628F6 /* SSHNavigationController.m */,
+				157F5F3F1C25018E00C1D220 /* SSHTabbar.h */,
+				157F5F401C25018E00C1D220 /* SSHTabbar.m */,
+				157F5F421C25021400C1D220 /* SSHTabbarIteam.h */,
+				157F5F431C25021400C1D220 /* SSHTabbarIteam.m */,
+			);
+			name = tabbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		157F5EFF1C24F02A00C1D220 /* SSHTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157F5F2D1C24F02A00C1D220 /* Build configuration list for PBXNativeTarget "SSHTabbarController" */;
+			buildPhases = (
+				157F5EFC1C24F02A00C1D220 /* Sources */,
+				157F5EFD1C24F02A00C1D220 /* Frameworks */,
+				157F5EFE1C24F02A00C1D220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSHTabbarController;
+			productName = SSHTabbarController;
+			productReference = 157F5F001C24F02A00C1D220 /* SSHTabbarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		157F5F181C24F02A00C1D220 /* SSHTabbarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157F5F301C24F02A00C1D220 /* Build configuration list for PBXNativeTarget "SSHTabbarControllerTests" */;
+			buildPhases = (
+				157F5F151C24F02A00C1D220 /* Sources */,
+				157F5F161C24F02A00C1D220 /* Frameworks */,
+				157F5F171C24F02A00C1D220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				157F5F1B1C24F02A00C1D220 /* PBXTargetDependency */,
+			);
+			name = SSHTabbarControllerTests;
+			productName = SSHTabbarControllerTests;
+			productReference = 157F5F191C24F02A00C1D220 /* SSHTabbarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		157F5F231C24F02A00C1D220 /* SSHTabbarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157F5F331C24F02A00C1D220 /* Build configuration list for PBXNativeTarget "SSHTabbarControllerUITests" */;
+			buildPhases = (
+				157F5F201C24F02A00C1D220 /* Sources */,
+				157F5F211C24F02A00C1D220 /* Frameworks */,
+				157F5F221C24F02A00C1D220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				157F5F261C24F02A00C1D220 /* PBXTargetDependency */,
+			);
+			name = SSHTabbarControllerUITests;
+			productName = SSHTabbarControllerUITests;
+			productReference = 157F5F241C24F02A00C1D220 /* SSHTabbarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		157F5EF81C24F02A00C1D220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "海神";
+				TargetAttributes = {
+					157F5EFF1C24F02A00C1D220 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					157F5F181C24F02A00C1D220 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 157F5EFF1C24F02A00C1D220;
+					};
+					157F5F231C24F02A00C1D220 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 157F5EFF1C24F02A00C1D220;
+					};
+				};
+			};
+			buildConfigurationList = 157F5EFB1C24F02A00C1D220 /* Build configuration list for PBXProject "SSHTabbarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 157F5EF71C24F02A00C1D220;
+			productRefGroup = 157F5F011C24F02A00C1D220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				157F5EFF1C24F02A00C1D220 /* SSHTabbarController */,
+				157F5F181C24F02A00C1D220 /* SSHTabbarControllerTests */,
+				157F5F231C24F02A00C1D220 /* SSHTabbarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		157F5EFE1C24F02A00C1D220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157F5F131C24F02A00C1D220 /* LaunchScreen.storyboard in Resources */,
+				156EAD471C2EF41E0065AF9A /* message@2x.png in Resources */,
+				156EAD431C2EF41E0065AF9A /* main@2x.png in Resources */,
+				156EAD441C2EF41E0065AF9A /* main@3x.png in Resources */,
+				157F5F101C24F02A00C1D220 /* Assets.xcassets in Resources */,
+				156EAD491C2EF41E0065AF9A /* message_@2x.png in Resources */,
+				156EAD4A1C2EF41E0065AF9A /* message_@3x.png in Resources */,
+				156EAD481C2EF41E0065AF9A /* message@3x.png in Resources */,
+				157F5F0E1C24F02A00C1D220 /* Main.storyboard in Resources */,
+				156EAD451C2EF41E0065AF9A /* main_@2x.png in Resources */,
+				156EAD461C2EF41E0065AF9A /* main_@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157F5F171C24F02A00C1D220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157F5F221C24F02A00C1D220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		157F5EFC1C24F02A00C1D220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157F5F0B1C24F02A00C1D220 /* ViewController.m in Sources */,
+				157F5F081C24F02A00C1D220 /* AppDelegate.m in Sources */,
+				156A5EC31C2D10BC002628F6 /* SSHNavigationController.m in Sources */,
+				157F5F3E1C25013F00C1D220 /* SSHTabbarViewController.m in Sources */,
+				156A5EBA1C2D0CE9002628F6 /* SaquareViewController.m in Sources */,
+				157F5F051C24F02A00C1D220 /* main.m in Sources */,
+				157F5F441C25021400C1D220 /* SSHTabbarIteam.m in Sources */,
+				156A5EBD1C2D0D07002628F6 /* MessageViewController.m in Sources */,
+				157F5F411C25018E00C1D220 /* SSHTabbar.m in Sources */,
+				157F5F3B1C24FF6D00C1D220 /* SSHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157F5F151C24F02A00C1D220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157F5F1E1C24F02A00C1D220 /* SSHTabbarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157F5F201C24F02A00C1D220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157F5F291C24F02A00C1D220 /* SSHTabbarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		157F5F1B1C24F02A00C1D220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 157F5EFF1C24F02A00C1D220 /* SSHTabbarController */;
+			targetProxy = 157F5F1A1C24F02A00C1D220 /* PBXContainerItemProxy */;
+		};
+		157F5F261C24F02A00C1D220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 157F5EFF1C24F02A00C1D220 /* SSHTabbarController */;
+			targetProxy = 157F5F251C24F02A00C1D220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		157F5F0C1C24F02A00C1D220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157F5F0D1C24F02A00C1D220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		157F5F111C24F02A00C1D220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157F5F121C24F02A00C1D220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		157F5F2B1C24F02A00C1D220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		157F5F2C1C24F02A00C1D220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		157F5F2E1C24F02A00C1D220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSHTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		157F5F2F1C24F02A00C1D220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSHTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		157F5F311C24F02A00C1D220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSHTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSHTabbarController.app/SSHTabbarController";
+			};
+			name = Debug;
+		};
+		157F5F321C24F02A00C1D220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSHTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSHTabbarController.app/SSHTabbarController";
+			};
+			name = Release;
+		};
+		157F5F341C24F02A00C1D220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSHTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSHTabbarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		157F5F351C24F02A00C1D220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSHTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haishen.SSHTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSHTabbarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		157F5EFB1C24F02A00C1D220 /* Build configuration list for PBXProject "SSHTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157F5F2B1C24F02A00C1D220 /* Debug */,
+				157F5F2C1C24F02A00C1D220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157F5F2D1C24F02A00C1D220 /* Build configuration list for PBXNativeTarget "SSHTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157F5F2E1C24F02A00C1D220 /* Debug */,
+				157F5F2F1C24F02A00C1D220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157F5F301C24F02A00C1D220 /* Build configuration list for PBXNativeTarget "SSHTabbarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157F5F311C24F02A00C1D220 /* Debug */,
+				157F5F321C24F02A00C1D220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157F5F331C24F02A00C1D220 /* Build configuration list for PBXNativeTarget "SSHTabbarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157F5F341C24F02A00C1D220 /* Debug */,
+				157F5F351C24F02A00C1D220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 157F5EF81C24F02A00C1D220 /* Project object */;
+}
